@@ -16,7 +16,7 @@ import {
   Download
 } from 'lucide-react';
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://streamflix-six-self.vercel.app/api';
 
 const MovieDetails = ({ movieId, onClose }) => {
   const [movie, setMovie] = useState(null);

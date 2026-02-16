@@ -18,7 +18,7 @@ import {
 import MovieDetails from './movie-details';
 import { NavLink } from "react-router";
 
-const API_BASE_URL = 'http://localhost:3000/api';
+const API_BASE_URL = 'https://streamflix-six-self.vercel.app/api';
 
 const BrowsePage = () => {
   const [trending, setTrending] = useState([]);
